@@ -225,7 +225,7 @@ body{
     position: relative;
     display: inline-block;
     line-height: 1.5rem;
-    color: #444444;
+    color: #7b7373;
     font-weight: lighter; 
     font-size: 1em;
 }
@@ -261,9 +261,8 @@ body{
 #traveller-talk .traveller-wrapper .traveller-heading h2{
     position: relative;
     text-align: center;
-    position: relative;
     color: #454545;
-    font-weight: bold; 
+    font-weight: 900; 
     font-size: 2.2rem;
     text-transform: uppercase;
 }
@@ -274,8 +273,8 @@ body{
 }
 #traveller-talk .traveller-wrapper .traveller-para p{
     position: relative;
+    padding: 15px 0 0 0;
     text-align: center;
-    position: relative;
     color: #454545;
     font-weight: lighter; 
     line-height: 1.5rem;
@@ -443,4 +442,59 @@ body{
     font-size: 0.7rem;
 }
 
-
+#connect-travellers{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background: url("../img/connect-travellers.jpg") no-repeat;
+    background-color: #ffffff;
+}
+#connect-travellers .connect-wrapper{
+    position: relative;
+    padding: 75px 0;
+}
+#connect-travellers .connect-wrapper .connect-heading{
+    position: relative;
+    text-align: center;
+}
+#connect-travellers .connect-wrapper .connect-heading h2{
+    position: relative;
+    text-align: center;
+    color: #454545;
+    font-weight: 900; 
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+#connect-travellers .connect-wrapper .connect-para{
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+}
+#connect-travellers .connect-wrapper .connect-para p{
+    position: relative;
+    padding: 15px 0 0 0;
+    text-align: center;
+    color: #7b7373;
+    font-weight: lighter; 
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+#connect-travellers .connect-wrapper .connect-content .joinus-button{
+    position: relative;
+    text-align: center;
+    /* padding: 75px 0; */
+}
+#connect-travellers .connect-wrapper .connect-content .joinus-button button{
+    position: relative;
+    border:5px solid #a7e0de;
+    background-color: #d9230e;
+    color: #ffffff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    width:140px;
+    height: 140px;
+    border-radius: 50%;
+}
