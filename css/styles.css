@@ -108,25 +108,40 @@ body{
     position: relative;
     padding-top: 235px;
 }
-#slider .slider-wrapper .slider-heading{
+#slider .slider-wrapper .slider-content{
+    position: relative;
+}
+#slider .slider-wrapper .slider-content .slider-heading{
     position: relative;
     display: inline;
     text-align: center;
 }
-#slider .slider-wrapper .slider-heading h2{
+#slider .slider-wrapper .slider-content .slider-heading h2{
     position: relative;
     color: #f9ebea;
     font-weight: bold; 
     font-size: 2em;
     text-align: center;
 }
-#slider .slider-wrapper .slider-para {
+#slider .slider-wrapper .slider-content .slider-heading .slider-heading-line{
+    position: relative;
+    padding: 0px 210px 0 0;
+}
+#slider .slider-wrapper .slider-content .slider-heading .slider-heading-line hr{
+    position: relative;
+    background-color: #ffffff;
+    width:5rem;
+    height: 0.2rem;
+    text-align: center;
+    display: inline-block;
+}
+#slider .slider-wrapper .slider-content  .slider-para {
     position: relative;
     width: 30%;
     padding-left: 110px;
     margin: 0 auto;
 }
-#slider .slider-wrapper .slider-para p{
+#slider .slider-wrapper .slider-content .slider-para p{
     position: relative;
     display: inline-block;
     text-align: justify;
@@ -135,19 +150,19 @@ body{
     font-size: 1.2em;
     line-height: 2.2rem;
 }
-#slider .slider-wrapper .slider-buttons{
+#slider .slider-wrapper .slider-content .slider-buttons{
     position: relative;
     display: block;
     text-align: center;
     padding-top: 20px;
     padding-left: 40px;
 }
-#slider .slider-wrapper .slider-buttons .meet-button{
+#slider .slider-wrapper .slider-content .slider-buttons .meet-button{
     position: relative;
     display: inline-block;
     padding-right: 10px;
 }
-#slider .slider-wrapper .slider-buttons .meet-button button{
+#slider .slider-wrapper .slider-content .slider-buttons .meet-button button{
     position: relative;
     width: 200px;
     height: 45px;
@@ -157,12 +172,12 @@ body{
     color: #f3f3f3;
     background-color: #d9230e;
 }
-#slider .slider-wrapper .slider-buttons .learnMore-button{
+#slider .slider-wrapper .slider-content .slider-buttons .learnMore-button{
     position: relative;
     display: inline-block;
     padding-right: 10px;
 }
-#slider .slider-wrapper .slider-buttons button{
+#slider .slider-wrapper .slider-content .slider-buttons button{
     position: relative;
     width: 130px;
     height: 45px;
@@ -441,14 +456,12 @@ body{
     letter-spacing: 1px;
     font-size: 0.7rem;
 }
-
 #connect-travellers{
     position: relative;
     width: 100%;
     height: 750px;
-    background-position-x: 50%;
-    background-position-y: 50%;
     background: url("../img/connect-travellers.jpg") no-repeat;
+    background-position:center;
     background-color: #ffffff;
 }
 #connect-travellers .connect-wrapper{
@@ -481,12 +494,12 @@ body{
     line-height: 1.5rem;
     font-size: 1rem;
 }
-#connect-travellers .connect-wrapper .connect-content .joinus-button{
+#connect-travellers .connect-wrapper  .joinus-button{
     position: relative;
     text-align: center;
-    /* padding: 75px 0; */
+    padding: 246px 0 0 50px;
 }
-#connect-travellers .connect-wrapper .connect-content .joinus-button button{
+#connect-travellers .connect-wrapper  .joinus-button button{
     position: relative;
     border:5px solid #a7e0de;
     background-color: #d9230e;
