@@ -1,0 +1,446 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #d9230e;
+}
+#header .header-wrapper{
+    position: relative;
+}
+
+#header .header-wrapper .logo{
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding: 15px 0 0 80px;
+}
+#header .header-wrapper .logo img{
+    position: relative;
+    display: inline-block;
+    width:260px;
+    height: 70px;
+}
+#header .header-wrapper .nav-button{
+    position: relative;
+    float: right;
+    line-height: 6em;
+    padding-right: 60px;
+}
+#header .header-wrapper  .nav-button button{
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 110px;
+    border: 0;
+    border-radius: 5px;
+    color: #d9230e;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+#header .header-wrapper .nav-links{
+    position: relative;
+    float: right;
+    line-height: 6em;
+}
+#header .header-wrapper .nav-links ul{
+    position: relative;
+    list-style-type: none;
+    padding-right: 10px;
+   
+}
+#header .header-wrapper .nav-links ul li{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    color: #f9ebea;
+    font-weight: lighter; 
+    font-size: 0.9em;
+}
+#navbar{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #c51a08;
+}
+#navbar .navbar-wrapper{
+    position: relative;
+    display: block;
+}
+#navbar .navbar-wrapper .navbar-links{
+    position: relative;
+    display: inline-block;
+}
+#navbar .navbar-wrapper .navbar-links ul{ 
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 50px;
+    line-height: 4em;
+}
+#navbar .navbar-wrapper .navbar-links ul li{ 
+    position: relative;
+    display: inline-block;
+    color: #f9ebea;
+    font-weight: lighter; 
+    font-size: 0.9em;
+    padding-left:50px;
+    
+}
+#slider{
+    position: relative;
+    width:100%;
+    height: 545px;
+    background-image: url("../img/slider.jpg");
+    /* opacity: 0.8; */
+    
+}
+#slider .slider-wrapper{
+    position: relative;
+    padding-top: 235px;
+}
+#slider .slider-wrapper .slider-heading{
+    position: relative;
+    display: inline;
+    text-align: center;
+}
+#slider .slider-wrapper .slider-heading h2{
+    position: relative;
+    color: #f9ebea;
+    font-weight: bold; 
+    font-size: 2em;
+    text-align: center;
+}
+#slider .slider-wrapper .slider-para {
+    position: relative;
+    width: 30%;
+    padding-left: 110px;
+    margin: 0 auto;
+}
+#slider .slider-wrapper .slider-para p{
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    color: #f9ebea;
+    font-weight: lighter; 
+    font-size: 1.2em;
+    line-height: 2.2rem;
+}
+#slider .slider-wrapper .slider-buttons{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#slider .slider-wrapper .slider-buttons .meet-button{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+#slider .slider-wrapper .slider-buttons .meet-button button{
+    position: relative;
+    width: 200px;
+    height: 45px;
+    border: 0;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #f3f3f3;
+    background-color: #d9230e;
+}
+#slider .slider-wrapper .slider-buttons .learnMore-button{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+#slider .slider-wrapper .slider-buttons button{
+    position: relative;
+    width: 130px;
+    height: 45px;
+    border: 0;
+    border-radius: 7px;
+    color: #d9230e;
+    font-weight: bold;
+    background-color: #f3f3f3;
+}
+#about-hobo{
+    position: relative;
+    width: 100%;
+    height: 470px;
+    background-color: #ffffff;
+}
+#about-hobo .about-wrapper{
+    position: relative;
+}
+#about-hobo .about-wrapper .about-img{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    padding:60px 0 0 20px;
+    float:left;
+}
+#about-hobo .about-wrapper .about-img img{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+}
+#about-hobo .about-wrapper .about-content-wrapper{
+    position: relative;
+    width: 600px;
+    display: inline-block;
+    float: right;
+    padding: 100px 101px 0 0;
+}
+#about-hobo .about-wrapper .about-content-wrapper .about-heading{
+    position: relative;
+    display: inline-block;
+}
+#about-hobo .about-wrapper .about-content-wrapper .about-heading h2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #444444;
+    font-weight: bold; 
+    font-size: 2.2em;
+    line-height: 2.2rem;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+#about-hobo .about-wrapper .about-content-wrapper .about-hobo-para{
+    position: relative;
+    display: inline-block;
+}
+#about-hobo .about-wrapper .about-content-wrapper .about-hobo-para p{
+    position: relative;
+    display: inline-block;
+    line-height: 1.5rem;
+    color: #444444;
+    font-weight: lighter; 
+    font-size: 1em;
+}
+#about-hobo .about-wrapper .about-content-wrapper .readMore-button{
+    position: relative;
+    display: inline-block;
+    padding: 40px 0;
+}
+#about-hobo .about-wrapper .about-content-wrapper button{
+    position: relative;
+    width: 150px;
+    height: 45px;
+    border: 0;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #f3f3f3;
+    background-color: #d9230e;
+}
+#traveller-talk{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-color: #f1f1f1;
+}
+#traveller-talk .traveller-wrapper{
+    position: relative;
+    padding: 75px 0;
+}
+#traveller-talk .traveller-wrapper .traveller-heading{
+    position: relative;
+    text-align: center;
+}
+#traveller-talk .traveller-wrapper .traveller-heading h2{
+    position: relative;
+    text-align: center;
+    position: relative;
+    color: #454545;
+    font-weight: bold; 
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+#traveller-talk .traveller-wrapper .traveller-para{
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+}
+#traveller-talk .traveller-wrapper .traveller-para p{
+    position: relative;
+    text-align: center;
+    position: relative;
+    color: #454545;
+    font-weight: lighter; 
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile{
+    position: relative;
+    text-align: center;
+    padding: 50px 0 10px 100px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1{
+    position: relative;
+    width: 300px;
+    height: 435px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: justify;
+    margin: 0 10px 0 0;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .traveller1-img{
+    position: relative;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .traveller1-img img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .traveller1-name{
+    position: relative;
+    padding: 10px 0 0px 15px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .traveller1-name h2{
+    position: relative;
+    color: #454545;
+    font-size: 1.3rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .traveller1-address{
+    position: relative;
+    padding: 2px 0 10px 20px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .traveller1-address p{
+    position: relative;
+    color: #8d8787;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .status-button1{
+    position: relative;
+    padding: 2px 0 10px 20px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-1 .status-button1 button{
+    position: relative;
+    color: #ffffff;
+    background-color: #2da002;
+    border: 0px;
+    border-radius: 5px;
+    width:85px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2{
+    position: relative;
+    width: 300px;
+    height: 435px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: justify;
+    margin: 0 10px 0 0;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .traveller2-img{
+    position: relative;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .traveller2-img img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .traveller2-name{
+    position: relative;
+    padding: 10px 0 0px 15px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .traveller2-name h2{
+    position: relative;
+    color: #454545;
+    font-size: 1.3rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .traveller2-address{
+    position: relative;
+    padding: 2px 0 10px 20px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .traveller2-address p{
+    position: relative;
+    color: #8d8787;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .status-button2{
+    position: relative;
+    padding: 2px 0 10px 20px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-2 .status-button2 button{
+    position: relative;
+    color: #ffffff;
+    background-color: #2da002;
+    border: 0px;
+    border-radius: 5px;
+    width:85px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3{
+    position: relative;
+    width:300px;
+    height: 435px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: justify;
+    margin: 0 10px 0 0;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .traveller3-img{
+    position: relative;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .traveller3-img img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .traveller3-name{
+    position: relative;
+    padding: 10px 0 0px 15px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .traveller3-name h2{
+    position: relative;
+    color: #454545;
+    font-size: 1.3rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .traveller3-address{
+    position: relative;
+    padding: 2px 0 10px 20px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .traveller3-address p{
+    position: relative;
+    color: #8d8787;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .status-button3{
+    position: relative;
+    padding: 2px 0 10px 20px;
+}
+#traveller-talk .traveller-wrapper .travellers-profile .traveller-3 .status-button3 button{
+    position: relative;
+    color: #ffffff;
+    background-color: #2da002;
+    border: 0px;
+    border-radius: 5px;
+    width:85px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
+
+
