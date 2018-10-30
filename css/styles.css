@@ -106,7 +106,7 @@ body{
 }
 #slider .slider-wrapper{
     position: relative;
-    padding-top: 235px;
+    padding-top: 200px;
 }
 #slider .slider-wrapper .slider-content{
     position: relative;
@@ -510,4 +510,262 @@ body{
     width:140px;
     height: 140px;
     border-radius: 50%;
+}
+#best-place {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url('../img/palace-3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#best-place .bestPlace-wrapper{
+    position: relative;  
+}
+#best-place .bestPlace-wrapper  .bestPlace-content{
+    position: relative;
+    width:30%;
+    height: 400px;
+    float: left;
+    padding: 230px 0 0 80px;    
+}
+#best-place .bestPlace-wrapper  .bestPlace-content .bestPlace-heading{
+    position: relative;
+    padding: 15px 0;
+}
+#best-place .bestPlace-wrapper  .bestPlace-content .bestPlace-heading h2{
+    position: relative;
+    color: #ffffff;
+    font-weight: bolder; 
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+#best-place .bestPlace-wrapper  .bestPlace-content .bestPlace-para{
+    position: relative;
+    padding: 5px 0
+}
+#best-place .bestPlace-wrapper  .bestPlace-content .bestPlace-para p{
+    position: relative;
+    color: #ffffff;
+    font-weight: lighter; 
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+#best-place .bestPlace-wrapper  .bestPlace-content .bestPlace-button{
+    position: relative;
+    padding: 15px 0;
+}
+#best-place .bestPlace-wrapper  .bestPlace-content .bestPlace-button button{
+    position: relative;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ffffff;
+    color: #4d4646;
+    text-transform: uppercase;
+    font-weight: 900; 
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+#best-place .bestPlace-wrapper .bestPalace-img{
+    position: relative;  
+    float: right;
+    padding: 60px 230px 0 0px;
+}
+#best-place .bestPlace-wrapper .bestPalace-img img{
+    position: relative;  
+    width: 580px;
+    height: 520px;
+   
+}
+#safe-online{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #f3f3f3;
+}
+#safe-online .safeOnline-wrapper{
+    position: relative;
+}
+#safe-online .safeOnline-wrapper .safeOnline-img{
+    position: relative;
+    width: 40%;
+    height: 250px;
+    padding:100px 0 0 0px;
+    text-align: center;
+    display: inline-block;
+}
+#safe-online .safeOnline-wrapper .safeOnline-img img{
+    position: relative;
+    width: 45%;
+    height: 250px;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content{
+    position: relative;
+    width: 40%;
+    height: 300px;
+    /* padding:100px 0 0 30px; */
+    display: inline-block;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-heading{
+    position: relative;
+    display: inline-block;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-heading h2{
+    position: relative;
+    color: #454545;
+    font-weight: 600; 
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-para{
+    position: relative;
+    display: inline-block;
+    padding: 12px 0;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-para p{
+    position: relative;
+    display: inline-block;
+    line-height: 1.5rem;
+    color: #7b7373;
+    font-weight: lighter; 
+    font-size: 1em;
+    text-align: justify;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-buttons{
+    position: relative;
+    display: inline-block;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-buttons .dontTalk-button{
+    position: relative;
+    display: inline-block;
+    padding: 12px 12px 0 0;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-buttons .dontTalk-button button{
+    position: relative;
+    width: 200px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f3f3f3;
+    font-size: 0.7rem;
+    background-color: #d9230e;
+    text-transform: uppercase;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-buttons .getVerified-button{
+    position: relative;
+    display: inline-block;
+}
+#safe-online .safeOnline-wrapper .safeOnline-content .safeOnline-buttons .getVerified-button button{
+    position: relative;
+    width: 200px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f3f3f3;
+    background-color: #0bab01;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+#your-plan{
+    width: 100%;
+    height: 750px;
+    background:url("../img/palace-1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#your-plan .yourPlan-wrapper{
+    position: relative;
+}
+#your-plan .yourPlan-wrapper .yourPlan-content{
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+#your-plan .yourPlan-wrapper .yourPlan-content h2{
+    position: relative;
+    color: #fdfefe;
+    font-weight: 700; 
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+#your-plan .yourPlan-wrapper .yourPlan-content .yourPlan-para{
+    position: relative;
+    padding: 5px 0;
+    margin: 0 auto;
+    width: 45%;
+}
+#your-plan .yourPlan-wrapper .yourPlan-content .yourPlan-para p{
+    position: relative;
+    color: #ffffff;
+    font-weight: lighter; 
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+#your-plan .yourPlan-wrapper .yourPlan-map{
+    position: relative;
+    padding: 5px 0;
+    text-align: center;
+}
+#your-plan .yourPlan-wrapper .yourPlan-map img{
+    position: relative;
+    padding: 5px 0;
+    width: 60%;
+}
+#do-messages{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: #c61130;
+}
+#do-messages .messages-wrapper{
+    position: relative;
+}
+#do-messages .messages-wrapper .messages-content{
+    position: relative;
+    text-align: center;
+}
+#do-messages .messages-wrapper .messages-content .messages-heading{
+    position: relative;
+    padding: 50px 0 0 10px;
+    text-align: center;
+}
+#do-messages .messages-wrapper .messages-content h2{
+    position: relative;
+    color: #fdfefe;
+    font-weight: 700; 
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+#do-messages .messages-wrapper .messages-content .messages-para{
+    position: relative;
+    padding: 15px 0;
+    margin: 0 auto;
+    width: 45%;
+}
+#do-messages .messages-wrapper .messages-content .messages-para p{
+    position: relative;
+    color: #ffffff;
+    font-weight: lighter; 
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+#do-messages .messages-wrapper .messages-img{
+    position: relative;
+    padding: 5px 0;
+    text-align: center;
+}
+#do-messages .messages-wrapper .messages-img img{
+    position: relative;
+    padding: 5px 0;
+    width: 70%;
 }
